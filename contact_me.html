@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Conteact Me</title>
+	</head>
+	<body>
+		<h1>My Contact Details</h1>
+		<address>
+			<ul>
+				<li>address</li>
+				<li>842666372</li>
+				<li>ccaducarlos@gmail.com</li>
+			</ul>
+		</address>
+        <hr>
+		<form action="mailto:ccaducarlos@gmail.com" method="post" enctype="multipart/form-data">
+			<table>
+				<tr>
+					<td>
+						<label for="senders_name">Your name:</label>
+						<input
+							type="text"
+							name="senders_name"
+							id="senders_name"
+						/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="senders_email">Your email:</label>
+						<input
+							type="email"
+							name="senders_email"
+							id="senders_email"
+						/>
+					</td>
+				</tr>
+				<tr>
+					<td><label for="senders_message">Your message:</label></td>
+				</tr>
+				<tr>
+					<td>
+						<textarea
+							name="senders_message"
+							id="senders_message"
+							cols="30"
+							rows="10"
+						></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td><button type="submit">Submit</button></td>
+				</tr>
+			</table>
+		</form>
+        <input type="date">
+	</body>
+</html>
